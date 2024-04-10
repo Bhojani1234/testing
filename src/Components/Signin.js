@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 
 function Signin() {
   return (
     <>
       <section>
-        <div className="container h-100">
-          <div className="row d-flex justify-content-center align-items-center h-100">
+        <div className="container w-100">
+          <div className="row d-flex justify-content-center align-items-center ">
             <div className="col-xl-10">
               <div className="card rounded-3 text-black">
                 <div className="row g-0">
@@ -71,15 +71,15 @@ function Signin() {
                           <button
                             data-mdb-button-init
                             data-mdb-ripple-init
-                            className="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3 w-100"
+                            className=" login-btn btn-block fa-lg gradient-custom-2 mb-3 w-100"
                             type="button"
                           >
-                            Log in
+                            Sign in
                           </button>
                         </div>
                         <div class="d-flex align-items-center justify-content-center pb-4">
                           <p class="mb-0 me-2">Don't have an account?</p>
-                          <Link> Sign up</Link>
+                          <Link className="Signup-btn"> Sign up</Link>
                         </div>
                       </form>
                     </div>
