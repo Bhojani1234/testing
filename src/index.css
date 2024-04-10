@@ -32,8 +32,9 @@ code {
   }
 }
 
-.text-color {
+.text-color h5 {
   color: #53783B;
+  font-size: 27px !important;
 }
 
 .text-color h6 {
@@ -76,4 +77,14 @@ code {
 .footer-nev a {
   color: white;
   text-decoration: none;
+}
+
+.login-page {
+  padding-left: 190px !important;
+  padding-right: 190px !important;
+}
+
+.login-img {
+  padding-right: 124px !important;
+  padding-left: 124px !important;
 }
